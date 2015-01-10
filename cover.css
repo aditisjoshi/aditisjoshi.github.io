@@ -50,13 +50,12 @@ body {
 }
 
 @font-face {
-  font-family: 'Dalle';
-  src: url('http://www.fontsaddict.com/fontface/dalle.ttf');
-  font-weight: lighter;
+  font-family: Dalle;
+  src: url("Dalle_Typeface.otf") format("opentype");
 }
 
 .titles {
-  font-family: "Dalle";
+  font-family: "Dalle",'Anton', sans-serif;
   font-size: 100px;
   margin-left: 20px;
   text-align: left;
