@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <title>Aditi Joshi</title>
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
     <!-- Loading fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
     <!-- core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="typed.js"></script>
+    <script>
+      $(function(){
+        $("#changingWord").typed({
+          strings: [" learn ", " design ", " innovate ", " teach ", " code ", " build ", " change the world "],
+          typeSpeed: 200
+        });
+      });
+    </script>
   </head>
 
   <body>
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="inner cover">
-          <h1 class="cover-heading">let's ____________ together.</h1>
-          <img src="arrow_down.png" id="arrow">
+          <h1 class="cover-heading" id="firstWord">let's </h1>
+          <h1 class="cover-heading" id="changingWord"> </h1>
+          <h1 class="cover-heading" id="lastWord">together.</h1>
+          <a href="#aboutMe">
+            <img src="arrow_down.png" id="arrow">
+          </a>
         </div>
       </div>
     </div>
 
-	<h1 class="titles">more about me</h1>
-	<p class="aboutMe">I am currently a second-year student at Olin College in Boston, MA studying engineering design. I am passionate about education, technology, and usability. I love coffee, yoga, reading, music, and hiking and I am quick on my feet. </p>
+  <a id="aboutMe">
+  	<h1 class="titles">more about me</h1>
+  	<p class="aboutMe">I am currently a second-year student at Olin College in Boston, MA studying engineering design. I am passionate about education, technology, and usability. I love coffee, yoga, reading, music, and hiking and I am quick on my feet. </p>
+  </a>
 
 	<h1 class="titles">projects</h1>
 
