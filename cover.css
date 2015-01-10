@@ -10,7 +10,7 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  background: url("cover_pic_full.jpg") center;
+  background: url("images/cover_pic_full.jpg") center;
   background-size: cover;
   position: relative;
   display: table;
@@ -39,7 +39,7 @@ body {
 
 @font-face {
   font-family: Distric Pro Thin;
-  src: url("DistProTh.otf") format("opentype");
+  src: url("documents/DistProTh.otf") format("opentype");
 }
 
 .cover-heading {
@@ -50,34 +50,9 @@ body {
   color: rgb(247,179,209);
 }
 
-.typed-cursor{
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-
-@keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
-@-webkit-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
-@-moz-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
 @font-face {
   font-family: Dalle;
-  src: url("Dalle_Typeface.otf") format("opentype");
+  src: url("documents/Dalle_Typeface.otf") format("opentype");
 }
 
 .titles {
@@ -96,6 +71,23 @@ body {
   margin-right: 170px;
   color: rgb(109,110,113);
 }
+
+.projects {
+  float: center;
+  margin-top: -60px;
+}
+
+.projects tr td img {
+  width: 85%;
+  opacity:0.55;
+  filter:alpha(opacity=55);
+}
+
+.projects tr td img:hover {
+  opacity:1;
+  filter:alpha(opacity=100);
+}
+
 
 .footer {
   background-color: rgb(247,179,209);
