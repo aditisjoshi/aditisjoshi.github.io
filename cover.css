@@ -50,8 +50,9 @@ body {
 }
 
 @font-face {
-  font-family: Dalle;
-  src: url("Dalle_Typeface.otf") format("opentype");
+  font-family: 'Dalle';
+  src: url('http://www.fontsaddict.com/fontface/dalle.ttf');
+  font-weight: lighter;
 }
 
 .titles {
