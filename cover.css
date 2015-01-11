@@ -30,13 +30,6 @@ body {
     vertical-align: middle;
   }
 
-#arrow {
-  position: fixed;
-  width: 2%;
-  bottom: 0;
-  right: 0;
-}
-
 @font-face {
   font-family: Distric Pro Thin;
   src: url("documents/DistProTh.otf") format("opentype");
@@ -75,12 +68,13 @@ body {
 .projects {
   float: center;
   margin-top: -60px;
+  z-index: -1;
 }
 
 .projects tr td img {
-  width: 85%;
-  opacity:0.55;
-  filter:alpha(opacity=55);
+  width: 95%;
+  opacity:0.4;
+  filter:alpha(opacity=4);
 }
 
 .projects tr td img:hover {
@@ -88,6 +82,17 @@ body {
   filter:alpha(opacity=100);
 }
 
+.projects tr td:hover .text {
+  visibility: hidden;
+}
+
+.text {
+  position: relative;
+  font-family: 'Distric Pro Thin';
+  font-size: 30px;
+  top: -250px;
+  z-index: 10;
+}
 
 .footer {
   background-color: rgb(247,179,209);
