@@ -37,10 +37,14 @@ body {
 
 .cover-heading {
   display: inline;
-  font-size: 100px;
+  font-size: 70px;
   font-family: 'Distric Pro Thin';
   font-weight: lighter;
   color: rgb(247,179,209);
+}
+
+#name {
+  font-size: 100px;
 }
 
 @font-face {
@@ -82,16 +86,32 @@ body {
   filter:alpha(opacity=100);
 }
 
-.projects tr td:hover .text {
+.projects tr td:hover .text1 {
   visibility: hidden;
 }
 
-.text {
+.projects tr td:hover .text2 {
+  visibility: hidden;
+}
+
+.text1 {
   position: relative;
   font-family: 'Distric Pro Thin';
   font-size: 30px;
   top: -250px;
   z-index: 10;
+}
+
+.text2 {
+  position: relative;
+  font-family: 'Distric Pro Thin';
+  font-size: 30px;
+  top: -250px;
+  z-index: 10;
+}
+
+.disabled {
+  visibility: hidden;
 }
 
 .footer {

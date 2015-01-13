@@ -8,26 +8,31 @@
   	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
     <!-- core JavaScript -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="jquery.js"></script>
+    <script src="main.js"></script>
     <script src="typed.js"></script>
-    <script>
+    <!--<script>
       $(function(){
         $("#changingWord").typed({
           strings: [" learn ", " design ", " innovate ", " teach ", " code ", " build ", " change the world "],
           typeSpeed: 200
         });
       });
-    </script>
+    </script>-->
+    <!-- Adding Vex -->
+    <script src="vex-2.2.1/js/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-os';</script>
+    <link rel="stylesheet" href="vex-2.2.1/css/vex.css" />
+    <link rel="stylesheet" href="vex-2.2.1/css/vex-theme-os.css" />
   </head>
 
   <body>
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="inner cover">
-          <h1 class="cover-heading" id="firstWord">let's </h1>
-          <h1 class="cover-heading" id="changingWord"> </h1>
+          <h1 class="cover-heading" id="name">I'm Aditi.</h1> <br>
+          <h1 class="cover-heading" id="firstWord">Let's </h1>
+          <h1 class="cover-heading" id="changingWord"></h1>
           <h1 class="cover-heading" id="lastWord">together.</h1>
         </div>
       </div>
@@ -40,40 +45,40 @@
 
 	<h1 class="titles">projects</h1>
    <table class="projects">
-    <tr>
+    <tr class="row1">
       <td>
-      <img src="images/insper_shape_withborder.jpg" alt="Insper" />
-      <h1 class="text">Insper</h1>
+      <img id="insper" src="images/insper_shape_withborder.jpg" alt="Insper" />
+      <h1 class="text1">Insper</h1>
       </td>
       <td>
-      <img src="images/teamwork_shape_withborder.jpg" alt="education research" />
-      <h1 class="text">Education Research</h1>
+      <img id="research" src="images/teamwork_shape_withborder.jpg" alt="education research" />
+      <h1 class="text1">Education Research</h1>
       </td>
       <td>
-      <img src="images/e4h_shape_withborder.jpg" alt="e4h" />
-      <h1 class="text">Engineering for Humanity</h1>
+      <img id="e4h" src="images/e4h_shape_withborder.jpg" alt="e4h" />
+      <h1 class="text1">Engineering for Humanity</h1>
       </td>
       <td>
-      <img src="images/modcon_shape_withborder.jpg" alt="electrical engineering" />
-      <h1 class="text">Electrical Engineering</h1>
+      <img id="modcon" src="images/modcon_shape_withborder.jpg" alt="electrical engineering" />
+      <h1 class="text1">Electrical Engineering</h1>
       </td>
     </tr>
-    <tr>
+    <tr class="row2">
       <td>
-      <img src="images/edisco_shape_withborder.jpg" alt="eDisco" />
-      <h1 class="text">Engineering Discovery</h1>
+      <img id="edisco" src="images/edisco_shape_withborder.jpg" alt="eDisco" />
+      <h1 class="text2">Engineering Discovery</h1>
       </td>
       <td>
-      <img src="images/weather_balloon_shape_withborder.jpg" alt="weather balloon" />
-      <h1 class="text">Weather Balloon</h1>
+      <img id="rwm" src="images/weather_balloon_shape_withborder.jpg" alt="weather balloon" />
+      <h1 class="text2">Weather Balloon</h1>
       </td>
       <td>
-      <img src="images/documentary_shape_withborder.jpg" alt="Documentary" />
-      <h1 class="text">The Creative Streets</h1>
+      <img id="documentary" src="images/documentary_shape_withborder.jpg" alt="Documentary" />
+      <h1 class="text2">The Creative Streets</h1>
       </td>
       <td>
-      <img src="images/design_nature_shape_withborder.jpg" alt="design nature" />
-      <h1 class="text">Design Nature</h1>
+      <img id="desnat" src="images/design_nature_shape_withborder.jpg" alt="design nature" />
+      <h1 class="text2">Design Nature</h1>
       </td>
     </tr>
     </table>
