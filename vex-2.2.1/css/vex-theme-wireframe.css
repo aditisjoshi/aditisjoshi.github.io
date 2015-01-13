@@ -122,9 +122,15 @@
 .vex.vex-theme-wireframe .vex-overlay {
   background: rgba(255, 255, 255, 0.4);
 }
+
+@font-face {
+  font-family: Distric Pro Thin;
+  src: url("documents/DistProTh.otf") format("opentype");
+}
+
 /* line 16, ../sass/vex-theme-wireframe.sass */
 .vex.vex-theme-wireframe .vex-content {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Distric Pro Thin';
   background: white;
   color: black;
   border: 2px solid black;
@@ -133,7 +139,7 @@
   margin: 0 auto;
   max-width: 100%;
   width: 400px;
-  font-size: 1.1em;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 /* line 29, ../sass/vex-theme-wireframe.sass */
