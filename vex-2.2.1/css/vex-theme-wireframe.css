@@ -250,7 +250,7 @@
 }
 /* line 104, ../sass/vex-theme-wireframe.sass */
 .vex.vex-theme-wireframe .vex-dialog-button.vex-dialog-button-primary {
-  background: black;
+  background: rgb(247,179,209);
   color: white;
   border: 2px solid transparent;
 }
