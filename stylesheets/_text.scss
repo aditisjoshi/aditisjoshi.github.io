@@ -1,0 +1,40 @@
+h1 {
+    font-family: $font-family-sans;
+    font-size: $font-size-h1;
+    font-weight: $font-light;
+
+    &.name {
+        font-weight: lighter;
+        padding-top: 15%;
+    }
+}
+
+h2 {
+    font-family: $font-family-sans;
+    font-size: $font-size-h2;
+    font-weight: $font-normal;
+}
+
+h3 {
+    font-family: $font-family-sans;
+    font-size: $font-size-h3;
+    font-weight: $font-bold;
+}
+
+p {
+    font-family: $font-family-sans;
+    font-size: $font-size-base;
+    font-weight: $font-normal;
+
+    &.tagline {
+        color: $gray-bright;
+    }
+}
+
+.white {
+    color: $white;
+}
+
+.center {
+    text-align: center;
+}

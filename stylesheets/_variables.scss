@@ -1,0 +1,86 @@
+//
+// Color palette
+// =============================================================================
+
+$white                       : #ffffff                                 !default;
+$black                       : #000000                                 !default;
+
+$gray-base                   : #4D5B74                                 !default;
+$gray-dark                   : #191F2B                                 !default;
+$gray-medium                 : #394258                                 !default;
+$gray-tinted                 : #707F9A                                 !default;
+$gray-light                  : #B2C1DB                                 !default;
+$gray-bright                 : #D9E3EF                                 !default;
+$gray-pale                   : #F3F5F8                                 !default;
+
+$blue-base                   : #6293F8                                 !default;
+
+$green-base                  : #56CB57                                 !default;
+
+$red-base                    : #F86362                                 !default;
+
+$orance-base                 : #FDBD58                                 !default;
+
+$purple-base                 : #C972EA                                 !default;
+
+
+//
+// Font families
+// =============================================================================
+
+$font-family-sans            : 'Lato', sans-serif                      !default;
+$font-family-serif           : serif                                   !default;
+$font-family-mono            : Menlo, 'Courier New', monospace         !default;
+
+$font-family-base            : $font-family-sans                       !default;
+
+
+//
+// Font weights
+// =============================================================================
+
+$font-bold                  : 700                                      !default;
+$font-normal                : 400                                      !default;
+$font-light                 : 300                                      !default;
+
+
+//
+// Font sizes
+// =============================================================================
+
+$font-size-xxl               : 50px                                    !default;
+$font-size-xl                : 36px                                    !default;
+$font-size-lg                : 24px                                    !default;
+$font-size-mdlg              : 20px                                    !default;
+$font-size-md                : 16px                                    !default;
+$font-size-sm                : 14px                                    !default;
+$font-size-xs                : 12px                                    !default;
+$font-size-xxs               : 11px                                    !default;
+
+$font-size-h1                : $font-size-xxl                          !default;
+$font-size-h2                : $font-size-xl                           !default;
+$font-size-h3                : $font-size-mdlg                         !default;
+
+$font-size-base              : $font-size-md                           !default;
+
+
+//
+// Margins
+// =============================================================================
+
+$margin-base                 : 12px                                    !default;
+
+
+//
+// Viewport
+// =============================================================================
+
+$break-lg                    : 120rem                                  !default;
+$break-md                    : 90rem                                   !default;
+$break-sm                    : 64rem                                   !default;
+$break-xs                    : 40rem                                   !default;
+
+$screen-xl-min               : $break-lg + rem(1px)                    !default;
+$screen-lg-min               : $break-md + rem(1px)                    !default;
+$screen-md-min               : $break-sm + rem(1px)                    !default;
+$screen-sm-min               : $break-xs + rem(1px)                    !default;

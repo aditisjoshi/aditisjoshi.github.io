@@ -1,104 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <title>Aditi Joshi</title>
+
     <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-    <!-- Loading fonts -->
-  	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
-    <!-- core JavaScript -->
-  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="main.js"></script>
-    <script src="typed.js"></script>
-    <script>
-      $(function(){
-        $("#changingWord").typed({
-          strings: [" learn ", " design ", " innovate ", " teach ", " code ", " build ", " change the world "],
-          typeSpeed: 200
-        });
-      });
-    </script>
-    <!-- Adding Vex -->
-    <script src="vex-2.2.1/js/vex.combined.min.js"></script>
-    <script>vex.defaultOptions.className = 'vex-theme-wireframe';</script>
-    <link rel="stylesheet" href="vex-2.2.1/css/vex.css" />
-    <link rel="stylesheet" href="vex-2.2.1/css/vex-theme-wireframe.css" />
+    <link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="inner cover">
-          <h1 class="cover-heading" id="name">I'm Aditi.</h1> <br>
-          <h1 class="cover-heading" id="firstWord">Let's </h1>
-          <h1 class="cover-heading" id="changingWord"></h1>
-          <h1 class="cover-heading" id="lastWord">together.</h1>
-        </div>
+     <div class = "site-wrapper">
+      <div class = "site-wrapper-inner">
+        <h1 class = "name center white">Aditi Joshi</h1>
+        <p class = "tagline center">Designing paradigm shifting products for real people.</p>
       </div>
     </div>
 
-  <a id="aboutMe">
-  	<h1 class="titles">more about me</h1>
-  	<p class="aboutMe">I am currently a second-year student at Olin College in Boston, MA studying engineering design. I am passionate about education, technology, and usability. I love coffee, yoga, reading, music, and hiking and I am quick on my feet. </p>
-  </a>
+    <div class = "content">
+      <a>
+      	<h2>About Me</h2>
+      	<p>I am currently a second-year student at Olin College in Boston, MA studying engineering design. I am passionate about education, technology, and usability. I love coffee, yoga, reading, music, and hiking and I am quick on my feet. </p>
+      </a>
 
-	<h1 class="titles">projects</h1>
-   <table class="projects">
-    <tr class="row1">
-      <td>
-      <img id="insper" src="images/insper_shape_withborder.jpg" alt="Insper" />
-      <h1 class="text1">Insper</h1>
-      </td>
-      <td>
-      <img id="research" src="images/teamwork_shape_withborder.jpg" alt="education research" />
-      <h1 class="text1">Education Research</h1>
-      </td>
-      <td>
-      <img id="e4h" src="images/e4h_shape_withborder.jpg" alt="e4h" />
-      <h1 class="text1">Engineering for Humanity</h1>
-      </td>
-      <td>
-      <img id="modcon" src="images/modcon_shape_withborder.jpg" alt="electrical engineering" />
-      <h1 class="text1">Electrical Engineering</h1>
-      </td>
-    </tr>
-    <tr class="row2">
-      <td>
-      <img id="edisco" src="images/edisco_shape_withborder.jpg" alt="eDisco" />
-      <h1 class="text2">Engineering Discovery</h1>
-      </td>
-      <td>
-      <img id="rwm" src="images/weather_balloon_shape_withborder.jpg" alt="weather balloon" />
-      <h1 class="text2">Weather Balloon</h1>
-      </td>
-      <td>
-      <img id="documentary" src="images/documentary_shape_withborder.jpg" alt="Documentary" />
-      <h1 class="text2">The Creative Streets</h1>
-      </td>
-      <td>
-      <img id="desnat" src="images/design_nature_shape_withborder.jpg" alt="design nature" />
-      <h1 class="text2">Design Nature</h1>
-      </td>
-    </tr>
-    </table>
 
+<!-- projects: 
+      NGPVAN
+      EDU 322
+      UOCD
+      Education Research
+      Insper
+      DREAM
+      SoftDes
+      E4H
+      eDisco
+       -->
+
+      <h2>Projects</h1>
+      <div class = "grid-full row">
+
+        <div class = "row">
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content"><div class = "ngpvan"><div>
+              <h3 class = "center white">Product Intern at NGPVAN</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content"><div class = "edu"><div>
+              <h3 class = "center white">Digital Technologies and Learning Communities</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content uocd"> <div class = "gcsp"><div>
+              <h3 class = "center white">Grand Challenges Scholars Program</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content test"><div class = "uocd"><div>
+              <h3 class = "center white">User Oriented Collaborative Design</p>
+            </div></div></div>
+          </div>
+
+        </div>
+
+
+
+        <div class = "row">
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content"><div class = "research"><div>
+              <h3 class = "center white">Education Research</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content"><div class = "insper"><div>
+              <h3 class = "center white">Curriculum Partner at Insper University</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content uocd"> <div class = "softdes"><div>
+              <h3 class = "center white">Software Design</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content test"><div class = "eh"><div>
+              <h3 class = "center white">Engineering for Humanity</p>
+            </div></div></div>
+          </div>
+
+        </div>
+
+
+        <div class = "row">
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content"><div class = "dream"><div>
+              <h3 class = "center white">Designing Resources for Empowerment and Making</p>
+            </div></div></div>
+          </div>
+
+          <div class = "col-sm-3 card">
+            <div class = "card-content"><div class = "edisco"><div>
+              <h3 class = "center white">Engineering Discovery</p>
+            </div></div></div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   </body>
 
-  <footer class="footer">
-    <div id="share-buttons">
-      <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/aditisjoshi" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" /></a>
-      <!-- Email -->
-      <a href="mailto:aditi.joshi@students.olin.edu"><img src="images/email.png" alt="Email" /></a>
-      <!-- GitHub -->
-      <a href="https://github.com/aditisjoshi" target="_blank"><img src="images/github.png" alt="GitHub"/></a>
-      <!-- Facebook -->
-      <a href="https://www.facebook.com/aditisatishjoshi?ref=tn_tnmn" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
-      <!-- Insagram -->
-      <a href="http://instagram.com/adisababy/" target="_blank"><img src="images/instagram.png" alt="Instagram"/></a>
-    </div>
-    <a href="documents/resume_AditiJoshi.pdf" id="resumeLink">resume</a>
-  </footer>
 
 </html>
