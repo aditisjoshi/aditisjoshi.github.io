@@ -61,6 +61,7 @@ html {
         display: table-cell;
         vertical-align: top; }
         .card .card-content div div h3 {
+          font-weight: 300;
           margin-left: 12px;
           margin-right: 12px; }
 
@@ -583,6 +584,13 @@ div.content {
     width: 100%; }
     .grid-full .col-xl-12:last-child {
       margin-right: 0; } }
+
+.row {
+  display: block; }
+  .row::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 html, body {
