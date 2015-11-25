@@ -14,6 +14,7 @@ html {
     display: block;
     height: 24vw; }
     .card .card-content div {
+      border-radius: 2px;
       background-position: center;
       background-repeat: no-repeat;
       -webkit-background-size: cover;
@@ -60,13 +61,23 @@ html {
         background-color: rgba(0, 0, 0, 0.7);
         display: table-cell;
         vertical-align: top; }
+        .card .card-content div div:hover {
+          background-color: transparent; }
+          .card .card-content div div:hover h3 {
+            display: none; }
         .card .card-content div div h3 {
           font-weight: 300;
+          padding-top: 24px;
+          padding-bottom: 48px;
           margin-left: 12px;
           margin-right: 12px; }
 
 div.content {
   margin: 12px; }
+
+footer {
+  height: 10%;
+  background-color: #D9E3EF; }
 
 .grid-full .col-1 {
   float: left;
@@ -592,6 +603,37 @@ div.content {
     content: "";
     display: table; }
 
+a {
+  text-decoration: none; }
+
+.vertical-nav {
+  position: fixed;
+  right: 12px;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  z-index: 1000; }
+  .vertical-nav a {
+    outline: 0;
+    vertical-align: top;
+    margin: 0px 0px 0px 25px;
+    position: relative;
+    top: -5px; }
+  .vertical-nav ul {
+    list-style: none; }
+    .vertical-nav ul li {
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      cursor: pointer;
+      padding: 6px;
+      height: 12px;
+      margin: 12px;
+      width: 12px;
+      vertical-align: bottom; }
+      .vertical-nav ul li:hover, .vertical-nav ul li.active {
+        background-color: rgba(0, 0, 0, 0.75); }
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 html, body {
   height: 100%;
@@ -599,8 +641,6 @@ html, body {
   padding: 0; }
 
 .site-wrapper {
-  background-image: url("../images/cover.jpg");
-  background-image: url("../images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -614,6 +654,9 @@ html, body {
   height: 100%;
   /* For at least Firefox */
   min-height: 100%; }
+  .site-wrapper.home {
+    background-image: url("../images/cover.jpg");
+    background-image: url("../images/cover.jpg"); }
   .site-wrapper .site-wrapper-inner {
     background-color: #191F2B;
     display: table-cell;

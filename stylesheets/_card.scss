@@ -9,6 +9,8 @@
         height: 24vw;
 
         div {
+            border-radius: 2px;
+
             background-position: center;
             background-repeat: no-repeat;
 
@@ -67,9 +69,19 @@
                 background-color: rgba(0,0,0,0.7);
                 display: table-cell;
                 vertical-align: top;
+
+                &:hover {
+                    background-color: rgba(0,0,0,0);
+
+                    h3 {
+                        display: none;
+                    }
+                }
                 
                 h3 {
                     font-weight: $font-light;
+                    padding-top: 2 * $margin-base;
+                    padding-bottom: 4 * $margin-base;
                     margin-left: $margin-base;
                     margin-right: $margin-base;
                 }

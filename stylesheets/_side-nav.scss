@@ -1,0 +1,38 @@
+.vertical-nav {
+    position: fixed;
+    right: $margin-base;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+    a {
+        outline: 0;
+        vertical-align:top;
+        margin: 0px 0px 0px 25px;
+        position: relative;
+        top:-5px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            position: relative;
+            background-color: rgba(0,0,0,0.4);
+            border-radius: $margin-base;
+            cursor: pointer;
+            padding: $margin-base/2;
+            height: $margin-base;
+            margin: $margin-base;
+            width: $margin-base;
+            vertical-align:bottom;
+
+
+            &:hover, &.active {
+                background-color: rgba(0,0,0,0.75);
+            }
+
+        }
+    }
+}
