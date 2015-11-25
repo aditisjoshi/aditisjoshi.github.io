@@ -26,10 +26,33 @@ html, body {
   }
 
   .site-wrapper-inner {
-    background-color: $gray-dark;
     display: table-cell;
     vertical-align: top; 
     opacity: 0.8;
+
+    &.gray{
+      background-color: $gray-dark;
+    }
+
+    &.red{
+      background-color: $red-base;
+    }
+
+    &.blue{
+      background-color: $blue-base;
+    }
+
+    &.green{
+      background-color: $green-base;
+    }
+
+    &.orange{
+      background-color: $orange-base;
+    }
+
+    &.purple{
+      background-color: $purple-base;
+    }
   }
 }
 

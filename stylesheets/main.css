@@ -658,10 +658,21 @@ html, body {
     background-image: url("../images/cover.jpg");
     background-image: url("../images/cover.jpg"); }
   .site-wrapper .site-wrapper-inner {
-    background-color: #191F2B;
     display: table-cell;
     vertical-align: top;
     opacity: 0.8; }
+    .site-wrapper .site-wrapper-inner.gray {
+      background-color: #191F2B; }
+    .site-wrapper .site-wrapper-inner.red {
+      background-color: #F86362; }
+    .site-wrapper .site-wrapper-inner.blue {
+      background-color: #6293F8; }
+    .site-wrapper .site-wrapper-inner.green {
+      background-color: #56CB57; }
+    .site-wrapper .site-wrapper-inner.orange {
+      background-color: #FDBD58; }
+    .site-wrapper .site-wrapper-inner.purple {
+      background-color: #C972EA; }
 
 h1 {
   font-family: "Lato", sans-serif;
