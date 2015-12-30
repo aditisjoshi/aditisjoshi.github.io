@@ -38,3 +38,20 @@ p {
 .center {
     text-align: center;
 }
+
+ul {
+    text-align: center;
+    list-style: none;
+
+    li {
+        font-family: $font-family-sans;
+        font-size: $font-size-base;
+    }
+}
+
+.site-wrapper-inner {
+    h1, p, li {
+        margin-right: 5 * $margin-base;
+        margin-left: $margin-base;
+    }
+}
