@@ -617,24 +617,24 @@ footer {
       .icon-holder-outer .icon-holder i.icon:hover {
         color: #394258; }
 
-.site-wrapper-inner .images {
+.site-wrapper-inner.projects {
   width: 100%; }
-  .site-wrapper-inner .images img {
+  .site-wrapper-inner.projects img {
     margin: 12px;
     border: 2px solid #ffffff; }
-    .site-wrapper-inner .images img.tall-left {
+    .site-wrapper-inner.projects img.tall-left {
       width: 31%; }
-    .site-wrapper-inner .images img.wide-left {
+    .site-wrapper-inner.projects img.wide-left {
       width: 40%; }
-    .site-wrapper-inner .images img.wide-right {
+    .site-wrapper-inner.projects img.wide-right {
       width: 55%;
       float: right;
       margin-right: 48px; }
-    .site-wrapper-inner .images img.wide-right2 {
+    .site-wrapper-inner.projects img.wide-right2 {
       width: 45%;
       float: right;
       margin-right: 48px; }
-    .site-wrapper-inner .images img.center {
+    .site-wrapper-inner.projects img.center {
       width: 50%;
       display: block;
       margin-right: auto;
