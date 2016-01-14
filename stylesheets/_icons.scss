@@ -1,0 +1,30 @@
+.icon-holder-outer {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    .icon-holder {
+
+        display: inline-block;
+
+            i {
+            &.icon {
+                color: $gray-bright;
+                padding-right: $margin-base;
+                margin-left: auto;
+                margin-right: auto;
+
+                &:hover {
+                    color: $gray-medium;
+                }
+
+            }
+        }
+
+    }
+
+}
+
+    
+
