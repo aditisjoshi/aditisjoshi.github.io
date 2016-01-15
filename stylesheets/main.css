@@ -107,7 +107,11 @@ div.content {
         width: 100%; } }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #ffffff; }
+  a:hover {
+    text-decoration: none;
+    color: #191F2B; }
 
 .vertical-nav {
   position: fixed;
@@ -168,15 +172,21 @@ html, body {
     .site-wrapper .site-wrapper-inner.gray {
       background-color: #191F2B; }
     .site-wrapper .site-wrapper-inner.red {
-      background-color: #F86362; }
+      background-color: #802028; }
     .site-wrapper .site-wrapper-inner.blue {
-      background-color: #6293F8; }
+      background-color: #00a3da; }
     .site-wrapper .site-wrapper-inner.green {
-      background-color: #56CB57; }
+      background-color: #BBC727; }
     .site-wrapper .site-wrapper-inner.orange {
-      background-color: #FDBD58; }
+      background-color: #FFAD49; }
     .site-wrapper .site-wrapper-inner.purple {
-      background-color: #C972EA; }
+      background-color: #471878; }
+    .site-wrapper .site-wrapper-inner.teal {
+      background-color: #68D2D2; }
+    .site-wrapper .site-wrapper-inner.yellow {
+      background-color: #F2C314; }
+    .site-wrapper .site-wrapper-inner.pink {
+      background-color: #C54762; }
 
 .projects div {
   vertical-align: middle; }
@@ -220,5 +230,29 @@ ul {
   ul li {
     font-family: "Lato", sans-serif;
     font-size: 1.25em; }
+
+.white {
+  color: #ffffff; }
+
+.blue {
+  color: #c5e9f1; }
+
+.teal {
+  color: #EAFAF5; }
+
+.yellow {
+  color: #F9EDBC; }
+
+.red {
+  color: #C18E96; }
+
+.pink {
+  color: #EDC5D4; }
+
+.orange {
+  color: #FFE3C1; }
+
+.green {
+  color: #F3F2BE; }
 
 /*# sourceMappingURL=main.css.map */
