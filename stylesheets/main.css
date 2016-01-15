@@ -128,8 +128,7 @@ div.content {
 
 a {
   color: #ffffff;
-  text-decoration: underline;
-  text-decoration-style: dotted; }
+  border-bottom: 1px dotted; }
   a:hover {
     text-decoration: none;
     color: #191F2B; }

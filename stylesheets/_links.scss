@@ -1,7 +1,6 @@
 a {
 	color: $white;
-	text-decoration: underline dotted;
-	text-decoration-style: dotted;
+	border-bottom: 1px dotted;
 
 	&:hover {
 		text-decoration: none;
