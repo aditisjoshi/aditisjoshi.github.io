@@ -48,14 +48,14 @@ $font-light                 : 300                                      !default;
 // Font sizes
 // =============================================================================
 
-$font-size-xxl               : 50px                                    !default;
-$font-size-xl                : 36px                                    !default;
-$font-size-lg                : 24px                                    !default;
-$font-size-mdlg              : 20px                                    !default;
-$font-size-md                : 16px                                    !default;
-$font-size-sm                : 14px                                    !default;
-$font-size-xs                : 12px                                    !default;
-$font-size-xxs               : 11px                                    !default;
+$font-size-xxl               : 3.125em                                 !default;
+$font-size-xl                : 2.25em                                  !default;
+$font-size-lg                : 1.5em                                   !default;
+$font-size-mdlg              : 1.25em                                  !default;
+$font-size-md                : 1em                                     !default;
+$font-size-sm                : 0.875em                                 !default;
+$font-size-xs                : 0.75em                                  !default;
+$font-size-xxs               : 0.688em                                 !default;
 
 $font-size-h1                : $font-size-xxl                          !default;
 $font-size-h2                : $font-size-lg                           !default;
