@@ -27,5 +27,29 @@
 
 }
 
+
+.scroll-down-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+
+    .scroll-down {
+
+        display: inline-block;
+
+        .arrow {
+            color: $gray-bright;
+        }
+
+        .down-arrow-text {
+            color: $gray-bright;
+            font-size: $font-size-xxs;
+            margin-bottom: 0;
+        }
+    }
+}
+
     
 

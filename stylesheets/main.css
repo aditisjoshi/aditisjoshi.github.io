@@ -94,6 +94,21 @@ div.content {
         color: #394258;
         text-decoration: none; }
 
+.scroll-down-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0; }
+  .scroll-down-container .scroll-down {
+    display: inline-block; }
+    .scroll-down-container .scroll-down .arrow {
+      color: #D9E3EF; }
+    .scroll-down-container .scroll-down .down-arrow-text {
+      color: #D9E3EF;
+      font-size: 0.688em;
+      margin-bottom: 0; }
+
 .site-wrapper-inner.projects {
   width: 100%;
   display: inline-block; }
