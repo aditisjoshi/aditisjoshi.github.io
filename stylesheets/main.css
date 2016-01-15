@@ -85,6 +85,8 @@ div.content {
   text-align: center; }
   .icon-holder-outer .icon-holder {
     display: inline-block; }
+    .icon-holder-outer .icon-holder a {
+      border-bottom: none; }
     .icon-holder-outer .icon-holder i.icon {
       text-decoration: none;
       color: #D9E3EF;
@@ -107,6 +109,7 @@ div.content {
   .scroll-down-container .scroll-down {
     display: inline-block; }
     .scroll-down-container .scroll-down .arrow {
+      border-bottom: none;
       text-decoration: none;
       color: #D9E3EF; }
     .scroll-down-container .scroll-down .down-arrow-text {

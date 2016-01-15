@@ -8,9 +8,12 @@
 
         display: inline-block;
 
+            a {
+                border-bottom: none;
+            }
+
             i {
             &.icon {
-                border-bottom: none;
                 text-decoration: none;
                 color: $gray-bright;
                 padding-right: $margin-base;
