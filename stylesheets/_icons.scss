@@ -20,6 +20,11 @@
                     text-decoration: none;
                 }
 
+                &:active {
+                    color: $gray-medium;
+                    text-decoration: none;
+                }
+
             }
         }
 
