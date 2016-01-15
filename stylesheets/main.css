@@ -242,6 +242,8 @@ p {
   font-size: 1.25em;
   font-weight: 400; }
   p.tagline {
+    margin-left: 12px;
+    margin-right: 12px;
     color: #D9E3EF; }
 
 .white {
