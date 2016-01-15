@@ -1,8 +1,4 @@
-
-footer {
-    background-color: $gray-bright;
-
-    .footer {
-        margin-top: 0;
-    }
+.footer {
+    margin-top: $margin-base;
+    margin-bottom: $margin-base;
 }
