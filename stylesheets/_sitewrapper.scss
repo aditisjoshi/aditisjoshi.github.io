@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  text-size-adjust: auto;
 }
 
 .site-wrapper {
@@ -24,21 +25,23 @@ html, body {
   &.home {
     @include background-image(url("../images/cover.jpg"));
 
-    // .site-wrapper-inner:after {
-    //   content:'';
-    //   position:absolute;
-    //   bottom:0; right:0;
-    //   width:100%; height:100%;
-    //   background-color: white;
-      
-    //   -webkit-transform-origin:100% 100%;
-    //   -ms-transform-origin:100% 100%;
-    //   transform-origin:100% 100%;
-
-    //   -webkit-transform:skewX(30deg);
-    //   -ms-transform:skewX(30deg);
-    //   transform:skewX(30deg);
-    // }
+    // .site-wrapper-inner:before {
+    //       content: '';
+    //         position: absolute;
+    //         left: 0;
+    //         bottom: 0;
+    //         overflow: visible;
+    //         width: 100%;
+    //         height: 100px;
+    //         background: white;
+    //         //z-index: -1;
+    //         -webkit-transform: skewY(-2deg);
+    //         -moz-transform: skewY(-2deg);
+    //         -ms-transform: skewY(-2deg);
+    //         -o-transform: skewY(-2deg);
+    //         transform: skewY(-2deg);
+    //         -webkit-backface-visibility: hidden;
+    //  }
 
   }
 
