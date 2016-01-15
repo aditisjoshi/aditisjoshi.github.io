@@ -1,4 +1,8 @@
+
 footer {
-	height: 10%;
-	background-color: $gray-bright;
+    background-color: $gray-bright;
+
+    .footer {
+        margin-top: 0;
+    }
 }
