@@ -10,6 +10,7 @@
 
             i {
             &.icon {
+                text-decoration: none;
                 color: $gray-bright;
                 padding-right: $margin-base;
                 margin-left: auto;
@@ -45,6 +46,7 @@
         display: inline-block;
 
         .arrow {
+            text-decoration: none;
             color: $gray-bright;
         }
 

@@ -86,11 +86,15 @@ div.content {
   .icon-holder-outer .icon-holder {
     display: inline-block; }
     .icon-holder-outer .icon-holder i.icon {
+      text-decoration: none;
       color: #D9E3EF;
       padding-right: 12px;
       margin-left: auto;
       margin-right: auto; }
       .icon-holder-outer .icon-holder i.icon:hover {
+        color: #394258;
+        text-decoration: none; }
+      .icon-holder-outer .icon-holder i.icon:active {
         color: #394258;
         text-decoration: none; }
 
@@ -103,6 +107,7 @@ div.content {
   .scroll-down-container .scroll-down {
     display: inline-block; }
     .scroll-down-container .scroll-down .arrow {
+      text-decoration: none;
       color: #D9E3EF; }
     .scroll-down-container .scroll-down .down-arrow-text {
       color: #D9E3EF;
@@ -113,7 +118,7 @@ div.content {
   width: 100%;
   display: inline-block; }
   .site-wrapper-inner.projects .header-image {
-    width: 60%;
+    width: 75%;
     object-fit: contain;
     display: block;
     margin: 12px auto; }
@@ -122,8 +127,9 @@ div.content {
         width: 100%; } }
 
 a {
-  text-decoration: none;
-  color: #ffffff; }
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-style: dotted; }
   a:hover {
     text-decoration: none;
     color: #191F2B; }
@@ -244,7 +250,8 @@ p {
 
 ul {
   text-align: center;
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
   ul li {
     font-family: "Lato", sans-serif;
     font-size: 1.25em; }
