@@ -6,16 +6,26 @@
     <!-- Custom styles for this template -->
     <link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
     <link href="stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="stylesheets/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="stylesheets/main.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+     <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/nav.js" type="text/javascript"></script>
+
   </head>
 
   <body>
+
+
+
+
+
      <div class = "site-wrapper home">
       <div class = "site-wrapper-inner gray">
+
         <h1 class = "name center white">Hi, I'm Aditi.</h1>
         <p class = "tagline center">You can probably find me at a coffee shop in Boston designing and developing new ideas that help the everyday lives of everyday people.</p>
         <div class="icon-holder-outer">
@@ -40,14 +50,131 @@
     </div>
 
       <div class = "site-wrapper" id = "ngpvan">
+
+        <nav class="mobile-nav">
+          <i class="fa fa-bars fa-2x hamburger-menu"></i>
+          <div class="nav-list">
+            <i class="fa fa-times fa-2x close-nav"></i>
+          <ul>
+            <li> 
+              <a href="#ngpvan" data-number="1">
+                <p>Product Intern at NGP VAN</p>
+              </a>
+            </li>
+            <li>
+              <a href="#uocd" data-number="1">
+                <p>User Oriented Collaborative Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#gcsp" data-number="1">
+                <p>Grand Challenge Scholars Program</p>
+              </a>
+            </li>
+            <li>
+              <a href="#research" data-number="1">
+                <p>Education Research</p>
+              </a>
+            </li>
+            <li>
+              <a href="#edu" data-number="1">
+                <p>Digital Technologies and Learning Communities</p>
+              </a>
+            </li>
+            <li>
+              <a href="#insper" data-number="1">
+                <p>Curriculum Partner at Insper University</p>
+              </a>
+            </li>
+            <li>
+              <a href="#softdes" data-number="1">
+                <p>Software Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#eh" data-number="1">
+                <p>Engineering for Humanity</p>
+              </a>
+            </li>
+            <li>
+              <a href="#dream" data-number="1">
+                <p>Designing Resources for Empowerment and Making</p>
+              </a>
+            </li>
+            <li>
+              <a href="#edisco" data-number="1">
+                <p>Engineering Discovery</p>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </nav>
+
+  <nav class="vertical-nav" >
+    <ul>
+      <li>
+        
+        <a href="#ngpvan" data-number="1">
+          <p>Product Intern at NGP VAN</p>
+        </a>
+      </li>
+      <li>
+        <a href="#uocd" data-number="1">
+          <p>User Oriented Collaborative Design</p>
+        </a>
+      </li>
+      <li>
+        <a href="#gcsp" data-number="1">
+          <p>Grand Challenge Scholars Program</p>
+        </a>
+      </li>
+      <li>
+        <a href="#research" data-number="1">
+          <p>Education Research</p>
+        </a>
+      </li>
+      <li>
+        <a href="#edu" data-number="1">
+          <p>Digital Technologies and Learning Communities</p>
+        </a>
+      </li>
+      <li>
+        <a href="#insper" data-number="1">
+          <p>Curriculum Partner at Insper University</p>
+        </a>
+      </li>
+      <li>
+        <a href="#softdes" data-number="1">
+          <p>Software Design</p>
+        </a>
+      </li>
+      <li>
+        <a href="#eh" data-number="1">
+          <p>Engineering for Humanity</p>
+        </a>
+      </li>
+      <li>
+        <a href="#dream" data-number="1">
+          <p>Designing Resources for Empowerment and Making</p>
+        </a>
+      </li>
+      <li>
+        <a href="#edisco" data-number="1">
+          <p>Engineering Discovery</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+        
       <div class = "site-wrapper-inner projects blue grid-full row">
         <div class = "col-md-6 col-md-offset-3">
           <img class = "header-image" src="images/van2.jpg">
-        <h1 class = "center white">Product Intern at NGPVAN</h1>
-        <p class = "blue center">From the summer of 2015 I have been working with <a href="http://www.ngpvan.com/">NGPVAN</a> as a product intern. My tasks have included:</p>
+        <h1 class = "center white">Product Intern at NGP VAN</h1>
+        <p class = "blue center">From the summer of 2015 I have been working with <a href="http://www.ngpvan.com/">NGP VAN</a> as a product intern. My tasks have included:</p>
         <ul>
           <li>Completing user research through talking to marketing and sales,</li>
-          <li>Synthesising my research into <a href="http://progress.ngpvan.com/design/personas">user personas</a>,</li>
+          <li>Synthesising my research into <a class="list-link" href="http://progress.ngpvan.com/design/personas">user personas</a>,</li>
           <li>Designing new interfaces for the company,</li>
           <li>Developing these new designs into features for the product, and</li>
           <li>Fixing visual bugs throughout the software.</li>
@@ -125,22 +252,22 @@
       </div>
     </div>
 
-    <div class = "site-wrapper" id = "dream">
-      <div class = "site-wrapper-inner projects orange grid-full">
-        <div class = "col-md-6 col-md-offset-3">
-          <img class = "header-image" src="images/dream.jpg">
-        <h1 class = "center white">Designing Resources for Empowerment and Making</h1>
-        <p class = "center">The final project for this class was "Studio C". Studio C is a mobile maker space and studio for students to use or take off of campus for outreach and education activities. The space is outfitted with multiple standing desks for room and outlets to put in small, mobile devices, such as a 3D printer, a vinyl cutter, or a tabletop CNC router. It gives students a new place to work or a way of taking their workspace elsewhere.</p>
-        </div>
-      </div>
-    </div>
-
      <div class = "site-wrapper" id = "eh">
       <div class = "site-wrapper-inner projects red grid-full">
         <div class = "col-md-6 col-md-offset-3">
           <img class = "header-image" src="images/e4h2.jpg">
         <h1 class = "center white">Engineering for Humanity</h1>
         <p class = "center">During this class I was paired with an older adult couple who had come to the United States recently from China. They spoke minimal English but had to often travel on public transporation and communicate with their doctor. Through the course of the semester, we created a set of videos for them so that they could manage daily tasks. We also realized that the interface of the video player was not easily usable for them, and so we created a new media player skin that was much easier to use.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "site-wrapper" id = "dream">
+      <div class = "site-wrapper-inner projects orange grid-full">
+        <div class = "col-md-6 col-md-offset-3">
+          <img class = "header-image" src="images/dream.jpg">
+        <h1 class = "center white">Designing Resources for Empowerment and Making</h1>
+        <p class = "center">The final project for this class was "Studio C". Studio C is a mobile maker space and studio for students to use or take off of campus for outreach and education activities. The space is outfitted with multiple standing desks for room and outlets to put in small, mobile devices, such as a 3D printer, a vinyl cutter, or a tabletop CNC router. It gives students a new place to work or a way of taking their workspace elsewhere.</p>
         </div>
       </div>
     </div>

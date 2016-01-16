@@ -1,4 +1,12 @@
+@media screen and (max-width: 1024px) {
+    .vertical-nav {
+        visibility: hidden;
+    }
+
+}
+
 .vertical-nav {
+    direction: rtl;
     position: fixed;
     right: $margin-base;
     top: 50%;
@@ -16,13 +24,14 @@
 
     ul {
         list-style: none;
+        padding-right: 0;
 
         li {
             position: relative;
             background-color: rgba(0,0,0,0.4);
             border-radius: $margin-base;
             cursor: pointer;
-            padding: $margin-base/2;
+            // padding: $margin-base/2;
             height: $margin-base;
             margin: $margin-base;
             width: $margin-base;
@@ -31,6 +40,15 @@
 
             &:hover, &.active {
                 background-color: rgba(0,0,0,0.75);
+            }
+
+            &:hover {
+
+                a {
+                    p {
+                        visibility: visible;
+                    }
+                }
             }
 
         }

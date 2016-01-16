@@ -129,14 +129,58 @@ div.content {
       .site-wrapper-inner.projects .header-image {
         width: 100%; } }
 
-a {
+p a {
   color: #ffffff;
   border-bottom: 1px dotted; }
-  a:hover {
+  p a:hover {
     text-decoration: none;
     color: #191F2B; }
 
+.list-link {
+  color: #ffffff;
+  border-bottom: 1px dotted; }
+  .list-link:hover {
+    text-decoration: none;
+    color: #191F2B; }
+
+@media screen and (min-width: 1024px) {
+  .hamburger-menu {
+    visibility: hidden; } }
+.mobile-nav {
+  z-index: 1000000;
+  position: fixed;
+  margin: 12px;
+  top: 0;
+  left: 0; }
+  .mobile-nav .hamburger-menu {
+    color: #4D5B74;
+    opacity: 100%; }
+  .mobile-nav .nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: 100%;
+    display: inline-block; }
+    .mobile-nav .nav-list .close-nav {
+      position: relative;
+      margin-top: 12px;
+      margin-left: 12px;
+      top: 0;
+      right: 0; }
+    .mobile-nav .nav-list ul li a p {
+      color: #191F2B;
+      font-size: 0.688em;
+      text-align: left;
+      text-transform: uppercase;
+      margin: 12px;
+      border-bottom: 1px dotted; }
+
+@media screen and (max-width: 1024px) {
+  .vertical-nav {
+    visibility: hidden; } }
 .vertical-nav {
+  direction: rtl;
   position: fixed;
   right: 12px;
   top: 50%;
@@ -150,19 +194,21 @@ a {
     position: relative;
     top: -5px; }
   .vertical-nav ul {
-    list-style: none; }
+    list-style: none;
+    padding-right: 0; }
     .vertical-nav ul li {
       position: relative;
       background-color: rgba(0, 0, 0, 0.4);
       border-radius: 12px;
       cursor: pointer;
-      padding: 6px;
       height: 12px;
       margin: 12px;
       width: 12px;
       vertical-align: bottom; }
       .vertical-nav ul li:hover, .vertical-nav ul li.active {
         background-color: rgba(0, 0, 0, 0.75); }
+      .vertical-nav ul li:hover a p {
+        visibility: visible; }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 html, body {
@@ -246,9 +292,6 @@ p {
     margin-right: 12px;
     color: #D9E3EF; }
 
-.white {
-  color: #ffffff; }
-
 .center {
   text-align: center; }
 
@@ -259,6 +302,16 @@ ul {
   ul li {
     font-family: "Lato", sans-serif;
     font-size: 1.25em; }
+
+.vertical-nav ul li {
+  white-space: nowrap; }
+  .vertical-nav ul li a p {
+    font-size: 0.688em;
+    margin-top: -18px;
+    margin-right: 24px;
+    color: #191F2B;
+    text-transform: uppercase;
+    visibility: hidden; }
 
 .white {
   color: #ffffff; }

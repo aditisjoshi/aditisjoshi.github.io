@@ -1,7 +1,9 @@
 jQuery(document).ready(function($) {
 
+    $('.mobile-nav .nav-list').hide();
+
     function isVisible() {
-        var sections = [('#ngpvan'),('#edu'),('#gcsp'),('#uocd'),('#research'),('#insper'),('#softdes'),('#eh'),('#dream'),('#edisco')];
+        var sections = [('#ngpvan'),('#uocd'),('#gcsp'),('#research'),('#edu'),('#insper'),('#softdes'),('#eh'),('#dream'),('#edisco')];
 
         $('.vertical-nav li').removeClass('active');
 
@@ -43,6 +45,19 @@ jQuery(document).ready(function($) {
         $('html, body').animate({scrollTop:posi}, 'slow');
       
         return false;
+    });
+
+
+    $('.mobile-nav .close-nav').click(function() {
+
+        $('.mobile-nav .nav-list').hide();
+
+    });
+
+    $('.mobile-nav .hamburger-menu').click(function() {
+
+        $('.mobile-nav .nav-list').show();
+
     });
 
 });

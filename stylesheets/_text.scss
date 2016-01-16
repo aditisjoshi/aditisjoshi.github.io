@@ -42,10 +42,6 @@ p {
     }
 }
 
-.white {
-    color: $white;
-}
-
 .center {
     text-align: center;
 }
@@ -58,6 +54,24 @@ ul {
     li {
         font-family: $font-family-sans;
         font-size: $font-size-base;
+    }
+}
+
+.vertical-nav {
+    ul {
+        li {
+            white-space: nowrap;       
+            a {
+                p {
+                    font-size: $font-size-xxs;
+                    margin-top: -1.5*$margin-base;
+                    margin-right: 2*$margin-base; 
+                    color: $gray-dark; 
+                    text-transform: uppercase;
+                    visibility: hidden; 
+                }
+            }
+        }
     }
 }
 
