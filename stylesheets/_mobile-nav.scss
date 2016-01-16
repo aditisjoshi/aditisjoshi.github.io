@@ -1,0 +1,56 @@
+@media screen and (min-width: 1024px) {
+    .hamburger-menu {
+        visibility: hidden;
+    }
+}
+
+.mobile-nav {
+    z-index: 1000000;
+    position: fixed;
+    margin: $margin-base; 
+    top: 0;
+    left: 0;
+    //visibility: hidden;
+
+    .hamburger-menu {
+        color: $gray-base;
+        opacity: 100%;
+        //visibility: hidden;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: $white;
+        height: 100%;
+        display: inline-block;
+        //visibility: hidden;
+
+        .close-nav {
+            position: relative;
+            margin-top: $margin-base;
+            margin-left: $margin-base;
+            top: 0;
+            right: 0;
+        }
+
+        ul {
+            li { 
+                a {     
+                    p {
+
+                        color: $gray-dark;
+                        font-size: $font-size-xxs;
+                        text-align: left;
+                        text-transform: uppercase;
+                        margin: $margin-base;
+                        border-bottom: 1px dotted;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
