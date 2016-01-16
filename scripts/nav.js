@@ -54,6 +54,12 @@ jQuery(document).ready(function($) {
 
     });
 
+    $('.mobile-nav .mobile-nav-link').click(function() {
+
+        $('.mobile-nav .nav-list').hide();
+
+    });
+
     $('.mobile-nav .hamburger-menu').click(function() {
 
         $('.mobile-nav .nav-list').show();
