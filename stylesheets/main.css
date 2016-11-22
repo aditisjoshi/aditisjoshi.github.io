@@ -83,22 +83,26 @@ div.content {
   display: block;
   width: 100%;
   text-align: center; }
-  .icon-holder-outer .icon-holder {
-    display: inline-block; }
-    .icon-holder-outer .icon-holder a {
+  .icon-holder-outer .icon-box {
+    display: inline-block;
+    text-align: center;
+    width: 55px; }
+    .icon-holder-outer .icon-box:hover .caption-text, .icon-holder-outer .icon-box:hover .icon {
+      color: #394258;
+      text-decoration: none; }
+    .icon-holder-outer .icon-box:active .caption-text, .icon-holder-outer .icon-box:active .icon {
+      color: #394258;
+      text-decoration: none; }
+    .icon-holder-outer .icon-box .caption-text {
+      margin: 0 auto;
+      color: #D9E3EF;
+      font-size: 0.688em; }
+    .icon-holder-outer .icon-box a {
       border-bottom: none; }
-    .icon-holder-outer .icon-holder i.icon {
+    .icon-holder-outer .icon-box i.icon {
       text-decoration: none;
       color: #D9E3EF;
-      padding-right: 12px;
-      margin-left: auto;
-      margin-right: auto; }
-      .icon-holder-outer .icon-holder i.icon:hover {
-        color: #394258;
-        text-decoration: none; }
-      .icon-holder-outer .icon-holder i.icon:active {
-        color: #394258;
-        text-decoration: none; }
+      margin: 0; }
 
 .scroll-down-container {
   display: block;
