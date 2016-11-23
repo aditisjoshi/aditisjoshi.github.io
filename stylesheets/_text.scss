@@ -9,13 +9,11 @@
 }
 
 h1 {
-    font-family: $font-family-sans;
+    font-family: $font-family-head;
     font-size: $font-size-h1;
-    font-weight: $font-light;
+    font-weight: $font-bold;
 
-    &.name {
-        font-weight: $font-extra-light;
-    }
+
 }
 
 h2 {
@@ -36,10 +34,18 @@ p {
     font-weight: $font-normal;
 
     &.tagline {
-        margin-left: $margin-base;
-        margin-right: $margin-base;
         color: $gray-bright;
+        font-weight: $font-light;
+        margin-bottom: $margin-base;
     }
+}
+
+.down-arrow-text {
+    font-family: $font-family-head;
+    font-weight: $font-extra-light;
+    font-size: $font-size-sm;
+    color: $gray-bright;
+    margin-bottom: 0;
 }
 
 .center {

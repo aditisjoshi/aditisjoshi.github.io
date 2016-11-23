@@ -4,11 +4,13 @@
     width: 100%;
     text-align: center;
 
+
     .icon-box {
 
         display: inline-block;
         text-align: center;
         width: 55px;
+        margin-top: $margin-base;
 
                 &:hover {
                 .caption-text, .icon {
@@ -28,7 +30,8 @@
             .caption-text {
                 margin: 0 auto;
                 color: $gray-bright;
-                font-size: $font-size-xxs;
+                font-size: $font-size-sm;
+                font-family: $font-family-head;
 
             }
 
@@ -68,11 +71,6 @@
             color: $gray-bright;
         }
 
-        .down-arrow-text {
-            color: $gray-bright;
-            font-size: $font-size-xxs;
-            margin-bottom: 0;
-        }
     }
 }
 
