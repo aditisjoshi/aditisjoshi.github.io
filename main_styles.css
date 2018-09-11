@@ -1,0 +1,108 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 24px;
+
+}
+	.strong {
+		font-weight: 700;	
+	}
+
+	.light {
+		font-weight: 300;
+	}
+
+	p {
+		font-size: 10pt;
+	}
+
+	.title {
+		font-size: 12pt;
+	}
+
+
+	.small {
+		font-size: 8pt;
+	}
+
+	a {
+		color: black !important;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+
+
+	.italic {
+		font-style: italic;
+	}
+
+
+.nav {
+	display: inline-block;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.nav:after {
+	content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.nav:hover:after {
+	width: 100%;
+}
+
+	.active {
+		background-color: #F11443;
+		color: white !important;
+	}
+
+.active:after {
+	content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #F11443;
+  transition: 300ms;
+}
+
+
+.active:hover:after {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	padding-top: 24px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+footer > p {
+	font-size: 8pt;
+	color: #C0C0C0;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
